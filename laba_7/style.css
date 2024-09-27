@@ -1,0 +1,13 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+#drawingArea{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 1100px;
+    height: 90vh;
+    border: 2px solid black;
+}
+
