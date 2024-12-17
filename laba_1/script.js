@@ -1,5 +1,5 @@
 let numberOfFilms, lastMovie, rating;
-
+console.log(a);
 while(!numberOfFilms || numberOfFilms < 1) {
   numberOfFilms = Number(prompt('Сколько фильмов вы уже посмотрели?', ''));
 }
@@ -18,7 +18,7 @@ function fillMyMovies() {
   }
   personalMovieDB.movies[lastMovie] = rating;
 }
-
+var a = 5;
 fillMyMovies();
 
 console.log(personalMovieDB);

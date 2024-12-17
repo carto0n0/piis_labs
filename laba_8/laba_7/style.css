@@ -1,0 +1,46 @@
+body {
+  font-family: 'Cambria';
+}
+
+svg {
+  border: 1px solid black;
+  cursor: crosshair;
+}
+
+.wrapper {
+  width: 100%;
+  width: fit-content;
+  padding: 20px 20px 0;
+  margin: 0 auto;
+}
+.controls {
+  margin: 0 0 15px 0;
+}
+label {
+  cursor: pointer;
+}
+
+.colors {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 0 0 15px 0;
+}
+.changeColor {
+  display: block;
+  padding: 0 20px;
+  height: 40px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(178, 178, 255);
+  cursor: pointer;
+}
+.changeColor:hover {
+  opacity: 0.8;
+}
+.colorDisplay {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
